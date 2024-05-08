@@ -39,9 +39,6 @@ function generatePassword() {
 function copyFirst(elementId) {
 	var element = document.getElementById(elementId);
 	selectText(element);
-	var tooltip = document.getElementById("myTooltip");
-	navigator.clipboard.writeText(element.textContent);
-	tooltip.innerHTML = "Copied: " + element.textContent;
 }
 
 function selectText(element) {

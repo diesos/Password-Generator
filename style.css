@@ -62,12 +62,13 @@ hr.rounded {
 .pwd-container {
     justify-content: space-around;
     width: 10em;
-    padding: 2vw 6vw;
+    padding: 15px;
     font-size: 1.7vw;
     color: white;
     border: 0px solid #4ADF86;
     border-radius: 5px;
     background-color: #273549;
+    text-align: center;
 }
 
 .pwd {
@@ -93,7 +94,7 @@ hr.rounded {
 }
 
 .hidden {
-    display: none;
+    visibility: hidden;
 }
 
 .copy-button {
@@ -105,8 +106,18 @@ hr.rounded {
 
 .copy-button>button {
     border-radius: 5px;
-    background-color: white;
-    font-size: large;
+    background-color: #10B981;
+    font-size: 1.4vw;
     font-weight: 300;
-    color: black;
+    width: auto;
+    padding: 3px;
+    color: white;
+    border: 0px solid transparent;
+}
+
+footer>p {
+    display: flex;
+    justify-content: center;
+    opacity: 15%;
+    color: grey
 }

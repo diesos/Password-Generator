@@ -53,10 +53,8 @@ function selectText(element) {
 }
 
 function toggleButtonVisibility() {
-	// If isAlive is false, show the button; otherwise, hide it
-	if (!isAlive) {
-		hidden.classList.remove("hidden");
-	} else {
-		hidden.classList.add("hidden");
+	var buttons = document.getElementsByClassName("hidden");
+	for (let i = 0; i < buttons.length; i++) {
+		buttons[i].style.visibility = 'visible';
 	}
 }
